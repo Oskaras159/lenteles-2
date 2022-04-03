@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+    font-family: Lato;
+    margin: 30px auto;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 15px;
+    width: 150px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+table:nth-of-type(1) {
+    background: rgb(199, 149, 228);
+    border: 2px solid rgb(187, 22, 22);
+}
+
+/* nth-of-type style */
+table:nth-of-type(1) th {
+    background: purple;
+    border: 2px solid white;
+    color: white;
+}
+
+table:nth-of-type(1) td {
+    background: rgb(252, 143, 234);
+    border: 2px solid white;
+    color: white;
+}
+
+table:nth-of-type(1) .purple {
+    background: rgba(0, 0, 0, 0.342);
+    border: 2px solid white;
+    color: white;
+
+}
